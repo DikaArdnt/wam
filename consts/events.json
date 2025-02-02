@@ -1,5 +1,34 @@
 [
 	{
+		"name": "WebcPageLoad2",
+		"id": 5392,
+		"props": {
+			"webcPageLoadId": [1, "string"]
+		},
+		"weight": 1,
+		"wamChannel": "regular",
+		"privateStatsIdInt": -1
+	},
+	{
+		"name": "WebcSocketConnect",
+		"id": 5450,
+		"props": {
+			"webcAuthHandshakeDuration": [1, "timer"],
+			"webcSocketConnectDuration": [2, "timer"],
+			"webcSocketConnectReason": [
+				3,
+				{
+					"PAGE_LOAD": 0,
+					"RECONNECT": 1
+				}
+			],
+			"webcSocketHostname": [4, "string"]
+		},
+		"weight": 1,
+		"wamChannel": "regular",
+		"privateStatsIdInt": -1
+	},
+	{
 		"name": "WebcFingerprint",
 		"id": 1704,
 		"props": {
